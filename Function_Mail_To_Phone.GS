@@ -1,11 +1,14 @@
 /*
-Written by: abaye
-Contact: abaye.ym@gmail.com
+#Written by: abaye
+#Contact: abaye.ym@gmail.com
 */
 
 function MailToPhone() {
 /*
-דברים שצריך לשפר: קבלת כמה מיילים יחד, מגיע בסדר הפוך
+דברים שצריך לסדר: 
+#1כשיש כמה מיילים, אז המייל האחרון נכנס ראשון למערכת
+#2להוסיף משתנה לפרייבט
+#3 להוסיף הצהרה וטיפול בקבצים מצורפים
 */
  let user = '079999999' // מספר המערכת
  let pass = '111111' // סיסמא
