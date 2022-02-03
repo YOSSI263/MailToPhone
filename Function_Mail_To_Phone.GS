@@ -41,7 +41,7 @@ function MailToPhone() {
       .filter(file => file.fileType === 'AUDIO' || file.fileType === 'TTS')
       .map(file => file.name.split('.')[0])
       .find(fileName => !isNaN(fileName));
-    let newNumber = number(lastFileName || -1) + 1;
+    let newNumber = Number(lastFileName || -1) + 1;
     let newName = newNumber.toString().padStart(3, '0');
     let filePath = `${path}${newName}.tts`;
 
