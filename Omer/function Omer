@@ -1,0 +1,7 @@
+function Omer() {
+    var body = `היי, תראה לא בטוח ששכחת אבל בכל אופן אני כאן כדי להזכיר לך...
+:-)`;
+    var subject = 'היי, ספירת העומר כבר ספרת?';
+    GmailApp.sendEmail('8140hp+error@gmail.com', subject, body);
+    Logger.log('Alert email sent successfully');
+  }
